@@ -1,0 +1,140 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family:  sans-serif;
+    background-color: black;
+}
+
+p {
+    font-size: 14px;
+}
+
+.parent {
+    background-color: #333;
+    margin: 100px auto;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first .container {
+    display: flex;
+    color: #DDDDDD;
+    justify-content: space-between;
+}
+
+.first .container h1 {
+    color: white;
+    margin-bottom: 35px;
+}
+.first .container p {
+    color: #959595;
+}
+
+.first .cont .number div p:nth-child(2) {
+    color: white;
+    font-size: 12px;
+}
+
+.first h1, h3{
+    margin: 0;
+}
+
+.first .container div {
+    width: 90%;
+}
+
+
+.first .container .cont .number {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first .container .cont .number div {
+    width: 48%;
+}
+.first .container  h1{
+    font-size: 25px;
+}
+.first .container .cont {
+    width: 30%;
+}
+
+.first .container .info {
+    width: 14%;
+}
+.first .container .acco {
+    width: 14%;
+}
+.first .container .news {
+    width: 30%;
+}
+
+input {
+    width: 60%;
+    background-color: #4C4C4C;
+    border: none;
+    padding: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: #b3b0b0;
+}
+
+button {
+    background-color: #E52727;
+    color: white;
+    width: 25%;
+    border: none;
+    padding: 10px;
+    margin-left: 2%;
+}
+
+.second {
+    background-color: #2B2B2B;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.second .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.text {
+    color: #959595;
+    font-size: 14px;
+}
+
+.text span {
+    color: white;
+}
+
+img {
+    width: 10%;
+}
+
+img:last-child {
+    margin-bottom: 2%;
+}
+
+.image {
+    width: 25%;
+    height: 25px;
+}
+
+
+.image img {
+    width: 18%;
+    height: 100%;
+    margin: 0;
+}
